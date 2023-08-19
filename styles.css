@@ -37,3 +37,19 @@ header {
   padding: 16px;
   text-decoration: none;
 }
+
+.home {
+  height: 100vh;
+  background-image: url("images/main-pic.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+.home > h2 {
+  margin-top: 0;
+  font-weight: 400;
+  font-size: 5rem;
+  color: white;
+  padding-top: 3.5em;
+}
