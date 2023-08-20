@@ -16,8 +16,9 @@ h1 {
 }
 
 header {
+  width: 100vh;
   display: flex;
-  background-color: rgba(0, 0, 0, 0.85);
+  background-color: rgba(0, 0, 0, 0.95);
 }
 
 .nav-ul {
@@ -39,7 +40,7 @@ header {
 }
 
 .home {
-  height: 100vh;
+  height: 90vh;
   background-image: url("images/main-pic.jpg");
   background-size: cover;
   background-repeat: no-repeat;
@@ -52,4 +53,9 @@ header {
   font-size: 5rem;
   color: white;
   padding-top: 3.5em;
+  margin-bottom: 0;
+}
+
+#home-typeWriter {
+  font-size: 2rem;
 }
