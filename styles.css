@@ -52,6 +52,7 @@ header {
   background-image: url("images/main-pic.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  background-attachment: fixed;
   text-align: center;
 }
 
@@ -153,6 +154,8 @@ header {
   background-color: white;
   border-radius: 10px;
   box-shadow: 0 5px 5px lightgray;
+  padding: 1em;
+  padding-bottom: 2.5em;
 }
 
 .services-services {
@@ -160,6 +163,11 @@ header {
   grid-template-columns: auto auto auto;
   gap: 30px;
   margin-top: 5em;
+}
+
+.service > p {
+  font-size: 1.25rem;
+  color: rgb(77, 75, 75);
 }
 
 .material-symbols-outlined {
@@ -172,17 +180,4 @@ header {
   border-radius: 50%;
   color: black;
   background-color: white;
-}
-
-.material-symbols-outlined:hover {
-  animation: iconAnimation;
-  animation-duration: 0.5s;
-}
-
-@keyframes iconAnimation {
-  to {
-    border: 3px solid lightblue;
-    color: white;
-    background-color: blue;
-  }
 }
