@@ -1,7 +1,8 @@
+//TypeWriter Code
 var typeWriterWords = [
   "Software Development",
   "Web Development",
-  "ASP.Net Backe-End",
+  "ASP.Net Back-End",
   "Blazor/React Front-End",
 ];
 var selectedWord = typeWriterWords[0];
@@ -43,3 +44,10 @@ function typeWriterIntervar() {
   }
   document.getElementById("home-typeWriter").innerHTML += "|";
 }
+
+
+
+//Icon Hover Code
+const icon1 = document.getElementById('icon-1');
+
+icon1.style.color = 'green'
