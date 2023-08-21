@@ -53,7 +53,6 @@ const serviceBoxes = document.getElementsByClassName('service')
 
 for (let i = 0; i < serviceBoxes.length; i++) {
   const box = serviceBoxes[i]
-  console.log(box)
   box.addEventListener('mouseenter', () => {
     const icon = box.querySelector('.material-symbols-outlined')
     icon.style.border = '4px solid lightblue'
@@ -69,25 +68,5 @@ for (let i = 0; i < serviceBoxes.length; i++) {
     icon.style.border = '4px solid blue'
     icon.style.backgroundColor = 'white'
     icon.style.color = 'black'
-  })
-}
-
-
-
-//Work Box Size Change Code
-const workCard = document.getElementsByClassName('work-card')
-
-for (let i = 0; i < workCard.length; i++) {
-  const box = workCard[i]
-  console.log(box)
-  box.addEventListener('mouseenter', () => {
-    box.style.width = '28vw'
-  })
-}
-
-for (let i = 0; i < workCard.length; i++) {
-  const box = workCard[i]
-  box.addEventListener('mouseleave', () => {
-    box.style.width = '25vw'
   })
 }
